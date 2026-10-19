@@ -1,6 +1,6 @@
 # Runweft Kit
 
-让 Codex 和 Claude Code 通过对话安装、接入和维护 Runweft，并通过 MCP 委派任务、续接会话和取回代码与附件。
+让 Codex 和 Claude Code 通过对话安装、接入和维护 Runweft，以 CLI 完成资源配置、任务委派、会话续接和代码与附件取回，并按需接入 MCP。
 
 [Runweft 官网](https://runweft.pages.dev/) · [Skill 指令](skills/runweft-kit/SKILL.md)
 
@@ -28,7 +28,7 @@ npx skills add iTgo-lyq/runweft-kit --skill runweft-kit --agent claude-code -g -
 使用 $runweft-kit 帮我连接已有 Hub，保留其他 MCP 和模型配置。
 ```
 
-身份由用户在浏览器中创建或导入并确认，不需要把 token 发给 Agent。Skill 按安装接入、中心配置、委派和维护选择对应参考资料。
+用户在自己的浏览器注册或登录账号，核对并授权连接，不需要手动保管 token，也不把密码交给 Agent。确认后由 Agent 继续通过 CLI 准备资源、执行并取回第一份报告；Web 用于账号授权和需要可视化的会话或审批。Skill 按安装接入、中心配置、委派和维护选择对应参考资料。
 
 ## 更新
 
